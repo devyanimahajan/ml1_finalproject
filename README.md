@@ -84,14 +84,6 @@ Each cluster was profiled by demographics, compensation, experience, and satisfa
 
 ---
 
-### 🌟 Future Work
-
-- Incorporate more granular attrition data
-- Explore temporal modeling for prediction over time
-- Evaluate impact of HR interventions via causal inference
-
----
-
 ### 🌟 Repository Structure
 - `Final Project Submission/`: EDA, clustering, and classification model development
 - `test_data/`: Testing data, preprocessed from IBM HR attrition dataset
