@@ -26,14 +26,14 @@ This project aims to address the business challenge of **employee attrition** at
 
 ### 🌟 Methodology
 
-#### 🌟 Exploratory Data Analysis (EDA)
+#### ✨ Exploratory Data Analysis (EDA)
 
 - Attrition is more likely among:
   - Employees in **Technical** and **Sales** roles
   - **Single** individuals
   - Those with **lower income** and **younger age**
 
-#### 🌟 Clustering
+#### ✨ Clustering
 
 - **Technique**: K-Prototypes (optimal `k=3`)
 - **Clusters Identified**:
@@ -43,7 +43,7 @@ This project aims to address the business challenge of **employee attrition** at
 
 Each cluster was profiled by demographics, compensation, experience, and satisfaction to guide targeted retention strategies.
 
-#### 🌟 Classification Models
+#### ✨ Classification Models
 
 - **Target**: Binary prediction of attrition
 - **Imbalance Handling**: SMOTE (oversampling minority class from 16% to 50%)
@@ -52,7 +52,7 @@ Each cluster was profiled by demographics, compensation, experience, and satisfa
   - Random Forest Classifier
   - Gradient Boosting Machine (GBM)
 
-#### 🌟 Cluster-wise Regression
+#### ✨ Cluster-wise Regression
 
 - Iteratively applied logistic regression within clusters to capture nuanced patterns
 - Best recall performance among all models (70.2%) with slightly lower accuracy (75.2%)
